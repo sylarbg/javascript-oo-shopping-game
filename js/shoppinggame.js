@@ -15,10 +15,10 @@ let player = {
     },
 
     addPoints(points) {
-        this.score += this.points;
+        this.score = this.score + points;
     },
     deductPoints(points) {
-        this.score -= this.points;
+        this.score = this.score - points;
     }
 }
 
